@@ -4,13 +4,13 @@ public class PrimitiveAndReference {
             int y=x;
             x=6;
         System.out.println(x);
-        System.out.println(y);
+        System.out.println(y); //immutable
         Student student1=new Student();
         student1.Id=1;
         student1.name="Güray";
         student1.lastName="ARIK";
 
-        Student student2=student1;
+        Student student2=student1; //mutable
 
         student2.name="Ali";
         System.out.println(student1.name);
